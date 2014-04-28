@@ -1,0 +1,7 @@
+This is a puppet module used to append:
+
+define('FTP_USER', 'username');
+define('FTP_PASS', 'password');
+define('FTP_HOST', 'host');
+
+to /opt/wordpress/wp-config.php
