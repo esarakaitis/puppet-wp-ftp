@@ -4,7 +4,7 @@ file_line { 'ftp_user':
 	path => '/opt/wordpress/wp-config.php',
 }
 file_line { 'ftp_pass':
-        line => "define('FTP_PASS', 'Ci530lab');",
+        line => "define('FTP_PASS', 'P@ssword');",
         path => '/opt/wordpress/wp-config.php',
 }
 file_line { 'ftp_host':
